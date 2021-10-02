@@ -13,6 +13,12 @@ Create React app:
 Init Amplify back-end:
 `amplify init`
 
+Add authentication:
+`amplify add auth`
+
+Deploy back-end changes:
+`amplify push`
+
 ---
 
 ## Getting Started with Create React App
