@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
+
+.lightText {
+  color: #d5dbdb !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logoutWrapper{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 60px;
+  background-color: #ff9900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

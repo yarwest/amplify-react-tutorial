@@ -1,10 +1,27 @@
-### Executed commands
+## To run this project:
+
+Ensure you have npm or yarn installed. In case you haven't:
+
+NPM: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/
+
+Yarn: https://classic.yarnpkg.com/lang/en/docs/install
+
+Install local dependencies defined in `package.json`:
+`yarn install` or `npm install`
 
 Install Amplify CLI globally:
-`yarn install -g @aws-amplify/cli`
+`yarn global add @aws-amplify/cli` or `npm install -g @aws-amplify/cli`
 
 Configure Amplify CLI:
 `amplify configure`
+
+Deploy back-end changes:
+`amplify push`
+
+Start local application:
+`yarn start` or `npm start`
+
+### Other commands used when creating this project (these were already done so no need to do them again)
 
 Create React app:
 `npx create-react-app amplify-react-tutorial`
@@ -15,9 +32,6 @@ Init Amplify back-end:
 
 Add authentication:
 `amplify add auth`
-
-Deploy back-end changes:
-`amplify push`
 
 ---
 

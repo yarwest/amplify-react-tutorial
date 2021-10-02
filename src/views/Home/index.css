@@ -1,0 +1,22 @@
+.App-logo {
+    height: 8vmin;
+    pointer-events: none;
+}
+
+.pageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+    height: 240px;
+}
+
+.pageWrapper * {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.App-link {
+    color: #61dafb;
+}
